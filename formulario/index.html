@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/estilo.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formulario-Simples</h1>
+    </header>
+
+    <main>
+        <fieldset>
+            <legend><label class="format">Formulario</label></legend>
+            <form action="" method="post">
+                <br>
+                <div>
+                    <label for="name">Nome </label>
+                    <input type="text" id="nome" name="name" placeholder="Seu nome completo" required>
+                </div>
+                <br>
+                <div>
+                    <label for="Telefone">Telefone </label>
+                    <input type="text" id="phone" name="phone" placeholder="Seu telefone" required>
+                </div>
+                <br>
+                <div>
+                    <label for="email">E-mail </label>
+                    <input type="text" id="email" name="email" placeholder="Seu e-mail" required>
+                </div>
+                <br>
+                <div>
+                    <label>Data de nascimento</label>
+                    <input type="date" required>
+                </div>
+                <br>
+                <div>
+                    <label>Sexo</label><br>
+                    <input type="checkbox" id="sexo" name="sexo" value="m">
+                    <label for="Masculino"> Masculino </label>
+                    <input type="checkbox" id="sexo" name="sexo" value="f">
+                    <label for="Feminino"> Feminino</label><br>
+                </div>
+                <br>
+                <div>
+                    <label class="format">Conhecimentos</label> <br>
+
+                    <input type="checkbox" id="php" name="liguagens" value="php">
+                    <label for="php"> Php </label> <br>
+
+                    <input type="checkbox" id="java" name="liguagens" value="java">
+                    <label for="java"> Java</label> <br>
+
+                    <input type="checkbox" id="C++" name="liguagens" value="C++">
+                    <label for="C++"> C++</label> <br>
+
+                    <input type="checkbox" id="C#" name="liguagens" value="C#">
+                    <label for="C#"> C#</label> <br>
+
+                    <label>Horarios</label>
+                    <select id="opcao" name="opcao" value="opcao">
+                        <option value="valor1">Manhã</option>
+                        <option value="valor2">Tarde</option>
+                        <option value="valor3">Noite</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label>Fale sobre você</label> <br>
+                    <textarea name="comentarios" id="comentarios"></textarea>
+                </div>
+                <br>
+                <button type="cadastrar">Cadastrar</button>
+            </form>
+        </fieldset>
+    </main>
+    <footer> </footer>
+</body>
+
+</html>
